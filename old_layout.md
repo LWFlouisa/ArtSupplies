@@ -3,3 +3,4 @@
 ![Two Panel 1](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/v3.png?raw=true)
 ![Three Panel 1](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/v2.png?raw=true)
 ![Mid Page](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/basic.png?raw=true)
+![Three Panel 2](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/v1.png?raw=true)
