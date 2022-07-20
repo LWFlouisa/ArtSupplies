@@ -11,4 +11,5 @@ The most common seven page panel transition layout.
 
 ## Other Panel Layouts
 ![Single Panel 1](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/singlepanel.png?raw=true)
+![Two Panel 1](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/lesscommon/v6.png?raw=true)
 ![Three Panel 1](https://github.com/LWFlouisa/ArtSupplies/blob/main/panelgrids/lesscommon/v4.png?raw=true)
