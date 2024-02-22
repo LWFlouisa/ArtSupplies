@@ -1,0 +1,438 @@
+@font-face {
+  font-family: Hafestran;
+  src: url("https://lwflouisa.github.io/HafestranFont/Font/HafestranFont-Regular.otf");
+}
+
+body {
+    color: #060606;
+    font-size: 62.5%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #060606;
+    text-transform: lowercase;
+}
+
+.table {
+    display:table;
+}
+
+img {
+    border:0;
+}
+
+.fleft {
+    float:left;
+}
+
+.center {
+    text-align:center;
+    margin:auto;
+}
+
+.center * {
+    margin:auto;
+}
+
+.right {
+    text-align:right;
+}
+
+.left {
+    text-align:left;
+}
+
+#content {
+    background-color: #175D02;
+    background-repeat: repeat-x;
+    background-position:bottom left;
+    padding:0;
+    margin:0;
+    border-bottom:1px solid #43DA1D;
+    min-height:350px;
+}
+
+.avatar {
+    margin: 5px;
+    float:left;
+}
+
+a {
+    font-family: Hafestran;
+    font-size: 28px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #C10415;
+    transition:color ease-in 250ms,background-color ease-in 250ms;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: #024833;
+}
+
+#container {
+    min-height: 600px;
+}
+
+#header {
+    background: #000000;
+    font-family: Hafestran;
+    font-size: 28px;
+    padding: 20px;
+    color: lime;
+    text-transform: uppercase;
+}
+
+#title {
+    font-family: Hafestran;
+    font-size: 28px;
+    color: lime;
+    text-transform: uppercase;
+}
+
+#navbar {
+    background: #121212;
+    padding: 0px;
+    padding-left:15px;
+    padding-bottom: 5px;
+    text-align: left;
+    border-left: 20px solid #0B750C;
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#navigation li a {
+    padding: 15px;
+    margin:0;
+    margin-top: 5px;
+    background: #269A03;
+    font-family: Hafestran;
+    font-size: 28px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+#navigation li a:hover {
+    background: #344344;
+}
+
+#comic {
+    margin: 10px;
+    float: left;
+    background-color:#121212;
+    padding:10px;
+    max-width:calc(100% - 260px);
+}
+
+#comicimage, #latestcomicimage,.comicsegmentimage {
+    max-width:100%;
+    height:auto;
+}
+
+.comicsegments {
+    text-align:center;
+}
+
+.comicsegments {
+    line-height:0; /*this is to prevent there from being space between the images on multi-image pages*/
+}
+.comicsegments .textcontent {
+    line-height:normal;
+}
+
+#sidebar {
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+#sidebarnav {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    background: lime;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-size: 1.2em;
+}
+
+#top, #bottom {
+    padding: 10px;
+    background: #161A1A;
+}
+
+#top {
+    position: relative;
+}
+
+#bottomhalfwrap {
+    clear: both;
+    width: 600px;
+    text-align: center;
+}
+
+#comicnavigation {
+    padding: 15px;
+    width: 600px;
+}
+
+#comicnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#comicnav li {
+    display: inline;
+}
+
+#comicnav li a {
+    background: #000000;
+    padding: 15px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+#comicnav li a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.blogcommentform,
+.postcommentwrap {
+    text-align: center;
+    margin: 20px auto;
+    max-width:600px;
+}
+
+#commentform {
+    background: #000000;
+    padding: 5px;
+    box-sizing:border-box;
+}
+
+.blogcommentform {
+    margin:20px auto;
+}
+
+.postcomment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.postcomment li {
+    display: inline;
+}
+
+.postcomment li a {
+    display:inline-block;
+    color: #43DA1D;
+    background: #121212;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #000000;
+    transition:border-color ease-in 250ms;
+}
+
+.postcomment li a:hover {
+    border-color: #242424;
+}
+
+#allcommentwraps {
+    text-align: center;
+    margin: 10px;
+    width: 600px;
+}
+
+.authorcomments,.extrapage, .pagelist {
+    background: #060606;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color: lime;
+}
+
+.authorcomments, .extrapage {
+    min-height: 125px;
+}
+
+.reply {
+    margin-left:120px;
+}
+
+.extrapage {
+    margin:0 auto;
+}
+
+.epborder {
+    padding:10px;
+}
+
+h2 {
+    font-family: Hafestran;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: lime;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    font-family: Hafestran;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #516165;
+    text-align: center;
+    line-height: 1em;
+}
+
+#footer {
+    font-family: Hafestran;
+    font-size: 28px;
+    font-weight: bold;
+    background: #26BD00;
+    color: #121212;
+    padding: 5px;
+    margin:0;
+    text-align: center;
+
+}
+
+tr, td, table {
+    font: 11px trebuchet ms, sans-serif;
+    color: #ffffff;
+}
+
+.chaptertitle {
+    text-align:center;
+}
+
+.chaptertitle td {
+    border-bottom:1px solid #222;
+    border-top:1px solid #222;
+}
+
+.chaptertitle h3 {
+    margin:4px;
+}
+
+.chapterdescription {
+    font-size:11px;
+}
+
+#searchbar {
+    margin:10px auto;
+    text-align:center;
+}
+
+#searchbar input {
+    border:1px solid white;
+    color:white;
+    background-color:black;
+}
+
+#searchbar input:hover {
+    background-color:#111;
+}
+
+#searchbar input.submit:hover {
+    background-color:#222;
+}
+
+.permalinks {
+    margin-top:8px;
+}
+
+.permalinkcode {
+    width:98%;
+    height:45px;
+    border:1px solid black;
+    background-color:#333;
+    color:#EEE;
+    font-face:lucida console, monospace;
+    font-size:10px;
+    overflow-x:hidden;
+}
+
+.plcwrap {
+    text-align:center;
+}
+
+#saveplace {
+    margin-top:5px;
+}
+
+.p {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.clear {
+    clear:both;
+}
+
+.postblogcomment {
+    text-align:center;
+    margin:20px;
+}
+
+
+.blognav {
+    margin-bottom:5px;
+    display:table;
+    width:100%;
+}
+
+.prevblog, .nextblog {
+    display:table-cell;
+    width:50%;
+}
+
+.prevblog {
+    text-align:left;
+}
+
+.nextblog {
+    text-align:right;
+}
+
+.blogarchivelink {
+    text-align:right;
+    float:right;
+}
+
+.pagelink, .pageskip {
+    font-size:1.4em;
+    margin-left:7px;
+}
+
+.currentpage {
+    font-size:1.4em;
+}
+
+.overviewcomic {
+    margin:auto;
+    display:table;
+}
